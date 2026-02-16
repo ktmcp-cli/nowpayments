@@ -1,0 +1,40 @@
+{
+  "name": "@ktmcp-cli/nowpayments",
+  "version": "1.0.0",
+  "description": "Production-ready CLI for NOWPayments cryptocurrency payment processing API",
+  "main": "src/index.js",
+  "bin": {
+    "nowpayments": "./bin/nowpayments.js"
+  },
+  "scripts": {
+    "start": "node bin/nowpayments.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "nowpayments",
+    "cryptocurrency",
+    "payment",
+    "cli",
+    "crypto",
+    "bitcoin",
+    "ethereum",
+    "commander"
+  ],
+  "author": "KTMCP",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "dotenv": "^16.4.1",
+    "node-fetch": "^2.7.0",
+    "cli-table3": "^0.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
