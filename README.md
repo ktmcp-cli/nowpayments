@@ -1,5 +1,10 @@
 # NOWPayments CLI
 
+<p align="center">
+  <img src="banner.png" alt="KTMCP Banner" width="100%">
+</p>
+
+
 A production-ready command-line interface for the [NOWPayments](https://nowpayments.io) cryptocurrency payment processing API. Built with Commander.js for robust API integration and automation.
 
 ## Why CLI > MCP
