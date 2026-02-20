@@ -1,11 +1,11 @@
 {
-  "name": "@ktmcp-cli/nowpaymentsio",
+  "name": "@ktmcp-cli/nowpayments",
   "version": "1.0.0",
   "description": "Production-ready CLI for NOWPayments API - cryptocurrency payments, invoices, subscriptions",
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "nowpaymentsio": "bin/nowpaymentsio.js"
+    "nowpayments": "bin/nowpayments.js"
   },
   "keywords": [
     "nowpayments",
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ktmcp-cli/nowpaymentsio.git"
+    "url": "git+https://github.com/ktmcp-cli/nowpayments.git"
   },
-  "homepage": "https://killthemcp.com/nowpaymentsio-cli",
+  "homepage": "https://killthemcp.com/nowpayments-cli",
   "bugs": {
-    "url": "https://github.com/ktmcp-cli/nowpaymentsio/issues"
+    "url": "https://github.com/ktmcp-cli/nowpayments/issues"
   }
 }
